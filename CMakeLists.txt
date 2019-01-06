@@ -3,4 +3,4 @@ project(opdrachten)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(opdrachten week3/main.cpp)
+add_executable(opdrachten week3/main.cpp week4/main.cpp week4/ValueInt.cpp week4/ValueInt.h)

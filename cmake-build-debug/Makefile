@@ -149,6 +149,60 @@ week3/main.cpp.s:
 	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week3/main.cpp.s
 .PHONY : week3/main.cpp.s
 
+week4/ValueInt.obj: week4/ValueInt.cpp.obj
+
+.PHONY : week4/ValueInt.obj
+
+# target to build an object file
+week4/ValueInt.cpp.obj:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj
+.PHONY : week4/ValueInt.cpp.obj
+
+week4/ValueInt.i: week4/ValueInt.cpp.i
+
+.PHONY : week4/ValueInt.i
+
+# target to preprocess a source file
+week4/ValueInt.cpp.i:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.i
+.PHONY : week4/ValueInt.cpp.i
+
+week4/ValueInt.s: week4/ValueInt.cpp.s
+
+.PHONY : week4/ValueInt.s
+
+# target to generate assembly for a file
+week4/ValueInt.cpp.s:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.s
+.PHONY : week4/ValueInt.cpp.s
+
+week4/main.obj: week4/main.cpp.obj
+
+.PHONY : week4/main.obj
+
+# target to build an object file
+week4/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/main.cpp.obj
+.PHONY : week4/main.cpp.obj
+
+week4/main.i: week4/main.cpp.i
+
+.PHONY : week4/main.i
+
+# target to preprocess a source file
+week4/main.cpp.i:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/main.cpp.i
+.PHONY : week4/main.cpp.i
+
+week4/main.s: week4/main.cpp.s
+
+.PHONY : week4/main.s
+
+# target to generate assembly for a file
+week4/main.cpp.s:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/main.cpp.s
+.PHONY : week4/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +215,12 @@ help:
 	@echo ... week3/main.obj
 	@echo ... week3/main.i
 	@echo ... week3/main.s
+	@echo ... week4/ValueInt.obj
+	@echo ... week4/ValueInt.i
+	@echo ... week4/ValueInt.s
+	@echo ... week4/main.obj
+	@echo ... week4/main.i
+	@echo ... week4/main.s
 .PHONY : help
 
 

@@ -1,0 +1,9 @@
+#ifndef OPDRACHTEN_VALUEINT_H
+#define OPDRACHTEN_VALUEINT_H
+
+class ValueInt {
+
+};
+
+
+#endif //OPDRACHTEN_VALUEINT_H
