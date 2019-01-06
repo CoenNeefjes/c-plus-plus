@@ -1,0 +1,3 @@
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/opdrachten.dir
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/rebuild_cache.dir
