@@ -21,8 +21,9 @@ void printDeck(const vector<Card> *cardDeck);
 void swapCards(Card *card1, Card *card2);
 void shuffleDeck(vector<Card> *cardDeck_ptr);
 int randomNumber();
-int getCardValue(Card *card);
+int getCardValue(Card &card);
 Card drawCard(vector<Card> &cardDeck);
+void playBlackJack(vector<Card> &cardDeck);
 
 int main() {
 
@@ -65,13 +66,49 @@ int main() {
 
     shuffleDeck(&cardDeck);
     printDeck(&cardDeck);
+
+    playBlackJack(cardDeck);
     return 0;
 }
 
 void playBlackJack(vector<Card> &cardDeck) {
     int dealerValue = 0;
     int playerValue = 0;
-    dealerValue += getCardValue(&drawCard(cardDeck));
+
+    Card drawnCard = drawCard(cardDeck);
+    dealerValue += getCardValue(drawnCard);
+
+    for (int i = 0; i<2; i++) {
+        drawnCard = drawCard(cardDeck);
+        playerValue += getCardValue(drawnCard);
+    }
+
+    string input;
+    while (input != "stand" && playerValue < 22) {
+        cout << "dealerValue=" << dealerValue << " playervalue=" << playerValue << endl;
+        cout << "Hit or stand" << endl;
+        getline(cin, input);
+        if (input == "hit") {
+            drawnCard = drawCard(cardDeck);
+            playerValue += getCardValue(drawnCard);
+        }
+    }
+    if (playerValue > 21) {
+        cout << "playerValue=" << playerValue << " so you deded" << endl;
+    } else {
+        while (dealerValue < 17) {
+            drawnCard = drawCard(cardDeck);
+            dealerValue += getCardValue(drawnCard);
+        }
+        cout << "dealerValue=" << dealerValue << " playervalue=" << playerValue << endl;
+        if (dealerValue > 21) {
+            cout << "The dealer is deded, you won" << endl;
+        } else if (playerValue > dealerValue) {
+            cout << "Player has won" << endl;
+        } else {
+            cout << "Dealer has won" << endl;
+        }
+    }
 }
 
 Card drawCard(vector<Card> &cardDeck) {
@@ -80,14 +117,14 @@ Card drawCard(vector<Card> &cardDeck) {
     return c;
 }
 
-int getCardValue(Card *card) {
-    int value = card->rank;
+int getCardValue(Card &card) {
+    int value = card.rank;
     if (value >= 10 && value < 14) {
         return 10;
     } else if (value == 14) {
         return 11;
     } else {
-        return card->rank;
+        return card.rank;
     }
 }
 
