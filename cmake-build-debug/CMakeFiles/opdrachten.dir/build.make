@@ -56,22 +56,9 @@ include CMakeFiles/opdrachten.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opdrachten.dir/flags.make
 
-CMakeFiles/opdrachten.dir/week3/main.cpp.obj: CMakeFiles/opdrachten.dir/flags.make
-CMakeFiles/opdrachten.dir/week3/main.cpp.obj: ../week3/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opdrachten.dir/week3/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opdrachten.dir\week3\main.cpp.obj -c "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week3\main.cpp"
-
-CMakeFiles/opdrachten.dir/week3/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opdrachten.dir/week3/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week3\main.cpp" > CMakeFiles\opdrachten.dir\week3\main.cpp.i
-
-CMakeFiles/opdrachten.dir/week3/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opdrachten.dir/week3/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week3\main.cpp" -o CMakeFiles\opdrachten.dir\week3\main.cpp.s
-
 CMakeFiles/opdrachten.dir/week4/main.cpp.obj: CMakeFiles/opdrachten.dir/flags.make
 CMakeFiles/opdrachten.dir/week4/main.cpp.obj: ../week4/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opdrachten.dir/week4/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opdrachten.dir/week4/main.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opdrachten.dir\week4\main.cpp.obj -c "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\main.cpp"
 
 CMakeFiles/opdrachten.dir/week4/main.cpp.i: cmake_force
@@ -84,7 +71,7 @@ CMakeFiles/opdrachten.dir/week4/main.cpp.s: cmake_force
 
 CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj: CMakeFiles/opdrachten.dir/flags.make
 CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj: ../week4/ValueInt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opdrachten.dir\week4\ValueInt.cpp.obj -c "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\ValueInt.cpp"
 
 CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.i: cmake_force
@@ -95,23 +82,51 @@ CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\ValueInt.cpp" -o CMakeFiles\opdrachten.dir\week4\ValueInt.cpp.s
 
+CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj: CMakeFiles/opdrachten.dir/flags.make
+CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj: ../week4/KeyValue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opdrachten.dir\week4\KeyValue.cpp.obj -c "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\KeyValue.cpp"
+
+CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\KeyValue.cpp" > CMakeFiles\opdrachten.dir\week4\KeyValue.cpp.i
+
+CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\KeyValue.cpp" -o CMakeFiles\opdrachten.dir\week4\KeyValue.cpp.s
+
+CMakeFiles/opdrachten.dir/week4/test_main.cpp.obj: CMakeFiles/opdrachten.dir/flags.make
+CMakeFiles/opdrachten.dir/week4/test_main.cpp.obj: ../week4/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opdrachten.dir/week4/test_main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opdrachten.dir\week4\test_main.cpp.obj -c "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\test_main.cpp"
+
+CMakeFiles/opdrachten.dir/week4/test_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opdrachten.dir/week4/test_main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\test_main.cpp" > CMakeFiles\opdrachten.dir\week4\test_main.cpp.i
+
+CMakeFiles/opdrachten.dir/week4/test_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opdrachten.dir/week4/test_main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Coen Neefjes\CLionProjects\opdrachten\week4\test_main.cpp" -o CMakeFiles\opdrachten.dir\week4\test_main.cpp.s
+
 # Object files for target opdrachten
 opdrachten_OBJECTS = \
-"CMakeFiles/opdrachten.dir/week3/main.cpp.obj" \
 "CMakeFiles/opdrachten.dir/week4/main.cpp.obj" \
-"CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj"
+"CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj" \
+"CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj" \
+"CMakeFiles/opdrachten.dir/week4/test_main.cpp.obj"
 
 # External object files for target opdrachten
 opdrachten_EXTERNAL_OBJECTS =
 
-opdrachten.exe: CMakeFiles/opdrachten.dir/week3/main.cpp.obj
 opdrachten.exe: CMakeFiles/opdrachten.dir/week4/main.cpp.obj
 opdrachten.exe: CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj
+opdrachten.exe: CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj
+opdrachten.exe: CMakeFiles/opdrachten.dir/week4/test_main.cpp.obj
 opdrachten.exe: CMakeFiles/opdrachten.dir/build.make
 opdrachten.exe: CMakeFiles/opdrachten.dir/linklibs.rsp
 opdrachten.exe: CMakeFiles/opdrachten.dir/objects1.rsp
 opdrachten.exe: CMakeFiles/opdrachten.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable opdrachten.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Coen Neefjes\CLionProjects\opdrachten\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable opdrachten.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\opdrachten.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Coen Neefjes/CLionProjects/opdrachten/week3/main.cpp" "C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/opdrachten.dir/week3/main.cpp.obj"
+  "C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.cpp" "C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj"
   "C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.cpp" "C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj"
   "C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/main.cpp" "C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/opdrachten.dir/week4/main.cpp.obj"
+  "C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/test_main.cpp" "C:/Users/Coen Neefjes/CLionProjects/opdrachten/cmake-build-debug/CMakeFiles/opdrachten.dir/week4/test_main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

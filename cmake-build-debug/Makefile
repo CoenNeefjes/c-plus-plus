@@ -122,32 +122,32 @@ opdrachten/fast:
 	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/build
 .PHONY : opdrachten/fast
 
-week3/main.obj: week3/main.cpp.obj
+week4/KeyValue.obj: week4/KeyValue.cpp.obj
 
-.PHONY : week3/main.obj
+.PHONY : week4/KeyValue.obj
 
 # target to build an object file
-week3/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week3/main.cpp.obj
-.PHONY : week3/main.cpp.obj
+week4/KeyValue.cpp.obj:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj
+.PHONY : week4/KeyValue.cpp.obj
 
-week3/main.i: week3/main.cpp.i
+week4/KeyValue.i: week4/KeyValue.cpp.i
 
-.PHONY : week3/main.i
+.PHONY : week4/KeyValue.i
 
 # target to preprocess a source file
-week3/main.cpp.i:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week3/main.cpp.i
-.PHONY : week3/main.cpp.i
+week4/KeyValue.cpp.i:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.i
+.PHONY : week4/KeyValue.cpp.i
 
-week3/main.s: week3/main.cpp.s
+week4/KeyValue.s: week4/KeyValue.cpp.s
 
-.PHONY : week3/main.s
+.PHONY : week4/KeyValue.s
 
 # target to generate assembly for a file
-week3/main.cpp.s:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week3/main.cpp.s
-.PHONY : week3/main.cpp.s
+week4/KeyValue.cpp.s:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.s
+.PHONY : week4/KeyValue.cpp.s
 
 week4/ValueInt.obj: week4/ValueInt.cpp.obj
 
@@ -203,6 +203,33 @@ week4/main.cpp.s:
 	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/main.cpp.s
 .PHONY : week4/main.cpp.s
 
+week4/test_main.obj: week4/test_main.cpp.obj
+
+.PHONY : week4/test_main.obj
+
+# target to build an object file
+week4/test_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/test_main.cpp.obj
+.PHONY : week4/test_main.cpp.obj
+
+week4/test_main.i: week4/test_main.cpp.i
+
+.PHONY : week4/test_main.i
+
+# target to preprocess a source file
+week4/test_main.cpp.i:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/test_main.cpp.i
+.PHONY : week4/test_main.cpp.i
+
+week4/test_main.s: week4/test_main.cpp.s
+
+.PHONY : week4/test_main.s
+
+# target to generate assembly for a file
+week4/test_main.cpp.s:
+	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/test_main.cpp.s
+.PHONY : week4/test_main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,15 +239,18 @@ help:
 	@echo ... opdrachten
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... week3/main.obj
-	@echo ... week3/main.i
-	@echo ... week3/main.s
+	@echo ... week4/KeyValue.obj
+	@echo ... week4/KeyValue.i
+	@echo ... week4/KeyValue.s
 	@echo ... week4/ValueInt.obj
 	@echo ... week4/ValueInt.i
 	@echo ... week4/ValueInt.s
 	@echo ... week4/main.obj
 	@echo ... week4/main.i
 	@echo ... week4/main.s
+	@echo ... week4/test_main.obj
+	@echo ... week4/test_main.i
+	@echo ... week4/test_main.s
 .PHONY : help
 
 

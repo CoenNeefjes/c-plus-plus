@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week3/main.cpp">
+		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.cpp">
+			<Option target="opdrachten"/>
+		</Unit>
+		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.h">
 			<Option target="opdrachten"/>
 		</Unit>
 		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.cpp">
@@ -90,6 +93,9 @@
 			<Option target="opdrachten"/>
 		</Unit>
 		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/main.cpp">
+			<Option target="opdrachten"/>
+		</Unit>
+		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/test_main.cpp">
 			<Option target="opdrachten"/>
 		</Unit>
 		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/CMakeLists.txt">

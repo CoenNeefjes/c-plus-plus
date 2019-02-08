@@ -6,13 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Coen Neefjes/CLionProjects/opdrachten/week3/main.cpp
-iostream
--
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.cpp
+KeyValue.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.h
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.h
+ValueInt.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.h
 vector
 -
-ctime
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.cpp
+ValueInt.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.h
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.h
+string
 -
-random
+iostream
 -
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/test_main.cpp
+sstream
+-
+chrono
+-
+KeyValue.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.h
 
