@@ -122,60 +122,6 @@ opdrachten/fast:
 	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/build
 .PHONY : opdrachten/fast
 
-week4/KeyValue.obj: week4/KeyValue.cpp.obj
-
-.PHONY : week4/KeyValue.obj
-
-# target to build an object file
-week4/KeyValue.cpp.obj:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.obj
-.PHONY : week4/KeyValue.cpp.obj
-
-week4/KeyValue.i: week4/KeyValue.cpp.i
-
-.PHONY : week4/KeyValue.i
-
-# target to preprocess a source file
-week4/KeyValue.cpp.i:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.i
-.PHONY : week4/KeyValue.cpp.i
-
-week4/KeyValue.s: week4/KeyValue.cpp.s
-
-.PHONY : week4/KeyValue.s
-
-# target to generate assembly for a file
-week4/KeyValue.cpp.s:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/KeyValue.cpp.s
-.PHONY : week4/KeyValue.cpp.s
-
-week4/ValueInt.obj: week4/ValueInt.cpp.obj
-
-.PHONY : week4/ValueInt.obj
-
-# target to build an object file
-week4/ValueInt.cpp.obj:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.obj
-.PHONY : week4/ValueInt.cpp.obj
-
-week4/ValueInt.i: week4/ValueInt.cpp.i
-
-.PHONY : week4/ValueInt.i
-
-# target to preprocess a source file
-week4/ValueInt.cpp.i:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.i
-.PHONY : week4/ValueInt.cpp.i
-
-week4/ValueInt.s: week4/ValueInt.cpp.s
-
-.PHONY : week4/ValueInt.s
-
-# target to generate assembly for a file
-week4/ValueInt.cpp.s:
-	$(MAKE) -f CMakeFiles\opdrachten.dir\build.make CMakeFiles/opdrachten.dir/week4/ValueInt.cpp.s
-.PHONY : week4/ValueInt.cpp.s
-
 week4/main.obj: week4/main.cpp.obj
 
 .PHONY : week4/main.obj
@@ -239,12 +185,6 @@ help:
 	@echo ... opdrachten
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... week4/KeyValue.obj
-	@echo ... week4/KeyValue.i
-	@echo ... week4/KeyValue.s
-	@echo ... week4/ValueInt.obj
-	@echo ... week4/ValueInt.i
-	@echo ... week4/ValueInt.s
 	@echo ... week4/main.obj
 	@echo ... week4/main.i
 	@echo ... week4/main.s

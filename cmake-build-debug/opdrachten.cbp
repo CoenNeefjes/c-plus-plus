@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.cpp">
+		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/BaseValue.h">
 			<Option target="opdrachten"/>
 		</Unit>
 		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.h">
 			<Option target="opdrachten"/>
 		</Unit>
-		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.cpp">
+		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.h">
 			<Option target="opdrachten"/>
 		</Unit>
-		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.h">
+		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueString.h">
 			<Option target="opdrachten"/>
 		</Unit>
 		<Unit filename="C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/main.cpp">

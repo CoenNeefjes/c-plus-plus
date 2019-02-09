@@ -3,18 +3,16 @@
 
 #include <string>
 #include <iostream>
+#include "BaseValue.h"
 
-class ValueInt {
+class ValueInt : public BaseValue {
 
 private:
     int m_value;
-    std::string m_name;
 
 public:
-    ValueInt(std::string name, int value) {
+    ValueInt(std::string name, int value=0) : BaseValue(name), m_value(value) {
         //TODO: what if name is null?
-        m_name = name;
-        m_value = value;
     }
 
     void Update(int value) {
@@ -22,11 +20,7 @@ public:
     }
 
     void Get(std::ostream &out) const {
-        out << m_name << "=" << m_value << " (int)";
-    }
-
-    std::string const &GetName() const {
-        return m_name;
+        out << GetName() << "=" << m_value << " (int)";
     }
 
 };

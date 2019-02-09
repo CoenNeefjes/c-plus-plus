@@ -1,6 +1,8 @@
 #include <sstream>
 #include <chrono>
 #include "KeyValue.h"
+#include "ValueInt.h"
+#include "ValueString.h"
 
 std::string IntToString(int value) {
     std::ostringstream output;
@@ -18,13 +20,12 @@ int main(int argc, char* argv[]) {
 
     // Create elements with names int_1..number_of_keys 
     // and values 1..number_of_keys
-    for (size_t i = 1; i < number_of_keys; ++i) {
+    for (size_t i = 1; i < number_of_keys/2; ++i) {
         key_value.Create(new ValueInt("int_" + IntToString(i), i));
     }
-
-    for (size_t i = 1; i < number_of_keys; ++i) {
+    for (size_t i = 1; i < number_of_keys/2; ++i) {
         std::string key = "int_" + IntToString(i);
-        ValueInt const &value = key_value.Get(key);
+        BaseValue const &value = key_value.Get(key);
         
         std::ostringstream value_check;
         value.Get(value_check);
@@ -36,11 +37,36 @@ int main(int argc, char* argv[]) {
         }
         
     }
-
-    for (size_t i = 1; i < number_of_keys; ++i) {
+    for (size_t i = 1; i < number_of_keys/2; ++i) {
         std::string key = "int_" + IntToString(i);
         key_value.Delete(key);
     }
+
+    // Create the strings
+    for (size_t i = number_of_keys/2 ; i < number_of_keys; ++i) {
+        key_value.Create(new ValueString("string_" + IntToString(i), IntToString(i)));
+    }
+    for (size_t i = number_of_keys/2; i < number_of_keys; ++i) {
+        std::string key = "string_" + IntToString(i);
+        BaseValue const &value = key_value.Get(key);
+
+        std::ostringstream value_check;
+        value.Get(value_check);
+        std::string expected_get = (key + "=" + IntToString(i) + " (string)");
+        if (value_check.str() != expected_get) {
+            std::cout << "Wrong value returned for key: " << key << "," << std::endl
+                      << "value was: " << value_check.str() << "," << std::endl
+                      << "expected: " << expected_get << std::endl;
+        }
+
+    }
+    for (size_t i = number_of_keys/2; i < number_of_keys; ++i) {
+        std::string key = "string_" + IntToString(i);
+        key_value.Delete(key);
+    }
+
+
+
 
     std::chrono::time_point<std::chrono::system_clock> p2;
     p2 = std::chrono::system_clock::now();

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/BaseValue.h
+string
+-
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.h
+vector
+-
+iostream
+-
+BaseValue.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/BaseValue.h
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.h
+string
+-
+iostream
+-
+BaseValue.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/BaseValue.h
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueString.h
+iostream
+-
+BaseValue.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/BaseValue.h
+
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/test_main.cpp
+sstream
+-
+chrono
+-
+KeyValue.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/KeyValue.h
+ValueInt.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueInt.h
+ValueString.h
+C:/Users/Coen Neefjes/CLionProjects/opdrachten/week4/ValueString.h
+

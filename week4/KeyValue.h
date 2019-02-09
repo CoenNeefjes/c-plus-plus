@@ -1,15 +1,16 @@
 #ifndef OPDRACHTEN_KEYVALUE_H
 #define OPDRACHTEN_KEYVALUE_H
 
-#include "ValueInt.h"
 #include <vector>
+#include <iostream>
+#include "BaseValue.h"
 
 class KeyValue {
 private:
-    std::vector<ValueInt*> data;
+    std::vector<BaseValue*> data;
 
     int getIndex(std::string name) const {
-        for (int i=0; i != data.size(); i++) {
+        for (int i=0; i < data.size(); i++) {
             if (data[i]->GetName() == name){
 //                std::cout << data[i]->GetName() << " equals " << name << ", so returning " << i << std::endl;
                 return i;
@@ -24,7 +25,7 @@ private:
     }
 
 public:
-    void Create(ValueInt *value){
+    void Create(BaseValue *value){
         data.push_back(value);
     }
 
@@ -32,13 +33,13 @@ public:
         data.erase(data.begin() + getIndex(name));
     }
 
-    ValueInt const &Get(std::string const &name) const {
+    BaseValue const &Get(std::string const &name) const {
         return *data[getIndex(name)];
     }
 
-    ValueInt $Get(std::string const &name) {
-        return *data[getIndex(name)];
-    }
+//    BaseValue $Get(std::string const &name) {
+//        return *data[getIndex(name)];
+//    }
 
 };
 
